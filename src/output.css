@@ -545,8 +545,14 @@
   .top-\[10\%\] {
     top: 10%;
   }
+  .top-\[17\%\] {
+    top: 17%;
+  }
   .top-\[20\%\] {
     top: 20%;
+  }
+  .top-\[22\%\] {
+    top: 22%;
   }
   .top-\[27\%\] {
     top: 27%;
@@ -692,6 +698,12 @@
   .mr-12 {
     margin-right: calc(var(--spacing) * 12);
   }
+  .mr-16 {
+    margin-right: calc(var(--spacing) * 16);
+  }
+  .mr-20 {
+    margin-right: calc(var(--spacing) * 20);
+  }
   .mr-24 {
     margin-right: calc(var(--spacing) * 24);
   }
@@ -722,6 +734,9 @@
   .mb-28 {
     margin-bottom: calc(var(--spacing) * 28);
   }
+  .mb-32 {
+    margin-bottom: calc(var(--spacing) * 32);
+  }
   .mb-36 {
     margin-bottom: calc(var(--spacing) * 36);
   }
@@ -742,6 +757,15 @@
   }
   .mb-\[1rem\] {
     margin-bottom: 1rem;
+  }
+  .ml-8 {
+    margin-left: calc(var(--spacing) * 8);
+  }
+  .ml-24 {
+    margin-left: calc(var(--spacing) * 24);
+  }
+  .ml-28 {
+    margin-left: calc(var(--spacing) * 28);
   }
   .block {
     display: block;
@@ -819,8 +843,17 @@
   .h-\[30px\] {
     height: 30px;
   }
+  .h-\[36\%\] {
+    height: 36%;
+  }
+  .h-\[38\%\] {
+    height: 38%;
+  }
   .h-\[40\%\] {
     height: 40%;
+  }
+  .h-\[42\%\] {
+    height: 42%;
   }
   .h-\[45\%\] {
     height: 45%;
@@ -864,6 +897,12 @@
   .h-\[120vh\] {
     height: 120vh;
   }
+  .h-\[183px\] {
+    height: 183px;
+  }
+  .h-\[234px\] {
+    height: 234px;
+  }
   .h-\[414px\] {
     height: 414px;
   }
@@ -891,6 +930,9 @@
   .h-full {
     height: 100%;
   }
+  .max-h-\[183px\] {
+    max-height: 183px;
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
@@ -903,6 +945,15 @@
   .w-24 {
     width: calc(var(--spacing) * 24);
   }
+  .w-\[10\%\] {
+    width: 10%;
+  }
+  .w-\[12\%\] {
+    width: 12%;
+  }
+  .w-\[14\%\] {
+    width: 14%;
+  }
   .w-\[1px\] {
     width: 1px;
   }
@@ -914,15 +965,6 @@
   }
   .w-\[2px\] {
     width: 2px;
-  }
-  .w-\[10\%\] {
-    width: 10%;
-  }
-  .w-\[12\%\] {
-    width: 12%;
-  }
-  .w-\[14\%\] {
-    width: 14%;
   }
   .w-\[30\%\] {
     width: 30%;
@@ -992,6 +1034,9 @@
   }
   .w-\[90\%\] {
     width: 90%;
+  }
+  .w-\[95\%\] {
+    width: 95%;
   }
   .w-\[100\%\] {
     width: 100%;
@@ -1363,8 +1408,17 @@
   .py-\[3rem\] {
     padding-block: 3rem;
   }
+  .pt-2 {
+    padding-top: calc(var(--spacing) * 2);
+  }
+  .pt-4 {
+    padding-top: calc(var(--spacing) * 4);
+  }
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
+  }
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
   }
   .pr-4 {
     padding-right: calc(var(--spacing) * 4);
@@ -1384,8 +1438,14 @@
   .pr-44 {
     padding-right: calc(var(--spacing) * 44);
   }
+  .pb-2 {
+    padding-bottom: calc(var(--spacing) * 2);
+  }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
+  }
+  .pb-26 {
+    padding-bottom: calc(var(--spacing) * 26);
   }
   .pl-1 {
     padding-left: calc(var(--spacing) * 1);
@@ -1422,8 +1482,20 @@
   .text-\[0\.85rem\] {
     font-size: 0.85rem;
   }
+  .text-\[1\.4rem\] {
+    font-size: 1.4rem;
+  }
   .text-\[1\.5rem\] {
     font-size: 1.5rem;
+  }
+  .text-\[1\.25rem\] {
+    font-size: 1.25rem;
+  }
+  .text-\[1\.85rem\] {
+    font-size: 1.85rem;
+  }
+  .text-\[1\.8rem\] {
+    font-size: 1.8rem;
   }
   .text-\[1\.125rem\] {
     font-size: 1.125rem;
@@ -1431,17 +1503,8 @@
   .text-\[1\.1rem\] {
     font-size: 1.1rem;
   }
-  .text-\[1\.25rem\] {
-    font-size: 1.25rem;
-  }
   .text-\[1\.2rem\] {
     font-size: 1.2rem;
-  }
-  .text-\[1\.85rem\] {
-    font-size: 1.85rem;
-  }
-  .text-\[1\.8rem\] {
-    font-size: 1.8rem;
   }
   .text-\[1rem\] {
     font-size: 1rem;
