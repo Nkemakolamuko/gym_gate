@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="src/output.css" />
     <link rel="shortcut icon" href="https://www.nd.edu/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/03ecdfcafe.js" crossorigin="anonymous"></script>
+    <script src="./src/script.js" defer></script>
     <title>Univerity of Notre Dame</title>
   </head>
   <body>
-    <!-- Header -->
+    <!-- Header First -->
     <header
-      class="relative z-20 flex items-center w-full justify-between border-t-[4px] border-t-[#ae9142] bg-[#0c2340] border-b-[5px] border-b-[#081629] py-4 px-[82px]"
+      class="relative start z-20 flex items-center w-full justify-between border-t-[4px] border-t-[#ae9142] bg-[#0c2340] border-b-[5px] border-b-[#081629] py-4 px-[82px]"
     >
       <!-- logo -->
       <img src="assets/Link.svg" alt="Logo" class="my-[32px] w-[200px] h-[47px]" />
@@ -122,6 +123,56 @@
         </p>
       </div>
     </header>
+
+    <!-- Header on scroll -->
+     <header class="sticky scroll top-0 z-[999] w-full border-t-[4px] border-t-[#ae9142] bg-[#0c2340] border-b-[5px] border-b-[#081629] px-[82px]">
+      <div class="flex items-center justify-end w-full">
+        <p
+          class="px-[1.55rem] py-[1.575rem] cursor-pointer bg-[#143865] transition-all duration-300 text-[#fff] opacity-70 leading-[1rem] border-b-[#d5d5d5]"
+        >
+        <i class="fa-solid fa-house"></i>
+        </p>
+        <p
+          class="px-[1.55rem] py-[1.575rem] cursor-pointer hover:bg-[#143865] transition-all duration-300 text-[#fff] opacity-70 leading-[1rem] border-b-[#d5d5d5]"
+        >
+          Academics
+        </p>
+        <p
+          class="px-[1.55rem] py-[1.575rem] cursor-pointer hover:bg-[#143865] transition-all duration-300 text-[#fff] opacity-70 leading-[1rem] border-b-[#d5d5d5]"
+        >
+          Admissions
+        </p>
+        <p
+          class="px-[1.55rem] py-[1.575rem] cursor-pointer hover:bg-[#143865] transition-all duration-300 text-[#fff] opacity-70 leading-[1rem] border-b-[#d5d5d5]"
+        >
+          Research
+        </p>
+        <p
+          class="px-[1.55rem] py-[1.575rem] cursor-pointer hover:bg-[#143865] transition-all duration-300 text-[#fff] opacity-70 leading-[1rem] border-b-[#d5d5d5]"
+        >
+          Global
+        </p>
+        <p
+          class="px-[1.55rem] py-[1.575rem] cursor-pointer hover:bg-[#143865] transition-all duration-300 text-[#fff] opacity-70 leading-[1rem] border-b-[#d5d5d5]"
+        >
+          Faith & Service
+        </p>
+        <p
+          class="px-[1.55rem] py-[1.575rem] cursor-pointer hover:bg-[#143865] transition-all duration-300 text-[#fff] opacity-70 leading-[1rem] border-b-[#d5d5d5]"
+        >
+          Campus Life
+        </p>
+        <p
+          class="px-[1.55rem] py-[1.475rem] cursor-pointer text-[#fff] hover:bg-[#143865] opacity-70 leading-[1rem] transition-all duration-300 border-b-[#d5d5d5] border-l-1 border-l-[#143865]"
+        >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
+          <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+        </svg>
+        
+          </svg>
+        </p>
+      </div>
+     </header>
 
     <!-- hero section -->
      <section class="h-[110vh] w-full bg-[url('https://www.nd.edu/assets/features/wwyff-takeover/images/campus_spring_scenic-1920.webp')] bg-cover bg-no-repeat bg-center relative">
